@@ -48,6 +48,7 @@
 			left: auto;
 		}
 	}
+	
 	li {
 		float: left;
 		position: relative;
@@ -56,6 +57,7 @@
 		&.focus > a {
 		}
 	}
+	
 	a {
 		display: block;
 		text-decoration: none;
@@ -63,7 +65,8 @@
 
 	.current_page_item > a,
 	.current-menu-item > a,
-	.current_page_ancestor > a {
+	.current_page_ancestor > a,
+	.current-menu-ancestor > a {
 	}
 }
 
@@ -91,12 +94,12 @@
 		overflow: hidden;
 	}
 
-	& .nav-previous {
+	.nav-previous {
 		float: left;
 		width: 50%;
 	}
 
-	& .nav-next {
+	.nav-next {
 		float: right;
 		text-align: right;
 		width: 50%;
